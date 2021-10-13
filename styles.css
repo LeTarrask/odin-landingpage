@@ -1,0 +1,212 @@
+/* styles.css */
+
+/* reset */
+html, body, div, span, applet, object,
+iframe, h1, h2, h3, h4, h5, h6, p, blockquote,
+pre, a, abbr, acronym, address, big, cite,
+code, del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var, b,
+u, i, center, dl, dt, dd, ol, ul, li, fieldset,
+form, label, legend, table, caption, tbody,
+tfoot, thead, tr, th, td, article, aside,
+canvas, details, embed, figure, figcaption,
+footer, header, hgroup, menu, nav, output, ruby,
+section, summary, time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+a {
+    text-decoration: none;
+    color: #E5E7EB;
+}
+
+body {
+    background-color: #F9FAF8;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    display: flex;
+    flex-direction: column;
+    padding: 0 80px;
+}
+
+#header {
+    background-color: #1F2937;
+    color: #F9FAF8;
+    margin-top: 10px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    gap: 8px;
+    padding: 16px 100px;
+}
+
+#header h2 {
+    font-size: 24px;
+    font-weight: bold;
+}
+
+#header li {
+    display: flex;
+    display: inline;
+    padding-left: 12px;
+    font-size: 16px;
+    color: #E5E7EB;
+    font-weight: lighter;
+}
+
+#header a:hover {
+    color: lightsteelblue;
+}
+
+#hero {
+    background-color: #1F2937;
+    padding: 40px 100px 90px;
+    color: #F9FAF8;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+#hero h1 {
+    font-size: 48px;
+    font-weight: bolder;
+}
+
+#hero p {
+    font-size: 16px;
+    margin: 15px 0;
+}
+
+.placeholder {
+    display: flex;
+    flex: 1;
+    align-items: center;
+    justify-content: center;
+    background-color: gray;
+    height: 240px;
+}
+
+.button {
+    background-color: #3882F6;
+    padding: 4px 20px;
+    border-radius: 7px;
+    width: fit-content;
+    color: #F9FAF8;
+}
+
+.leftside {
+    flex: 1;
+}
+
+.rightside {
+    flex: 1;
+    margin-left: auto;
+}
+
+#information {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 100px 0;
+}
+
+h3 {
+    font-size: 36px;
+    font-weight: bolder;
+    color: #1F2937;
+    padding-bottom: 50px;
+}
+
+#information ul {
+    padding: 0 50px;
+    display: flex;
+    flex-direction: row;
+}
+
+#information li {
+    display: flex;
+    flex-direction: column;
+    padding: 0 30px;
+}
+
+.placeimg {
+    border: 2px solid blue;
+    border-radius: 15px;
+    height: 200px;
+}
+
+#information p {
+    font-weight: lighter;
+    color: #1F2937;
+    font-size: small;
+    padding: 5px;
+    text-align: center;
+}
+
+#quote {
+    display: flex;
+    flex-direction: column;
+    background-color: #E5E7EB;
+}
+
+.phrase {
+    padding: 80px 120px 0;
+    font-size: 36px;
+    font-style: italic;
+    font-weight: lighter;
+    color: #1F2937;
+}
+
+.author {
+    font-weight: bolder;
+    font-size: larger;
+    padding-right: 150px;
+    text-align: right;
+    padding-bottom: 80px;
+    color: #1F2937;
+}
+
+#CTA {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+
+    height: 120px;
+    background-color: #3882F6;
+    margin: 120px 120px;
+    border-radius: 10px;
+    padding: 0 50px;
+}
+
+#CTA h4, p {
+    color: #E5E7EB;
+}
+
+#CTA h4 {
+    font-weight: bolder;
+}
+
+#CTA .button {
+    border: 1px solid #E5E7EB;
+}
+
+footer {
+    background-color: #1F2937;
+    color: #F9FAF8;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 20px 0;
+}
